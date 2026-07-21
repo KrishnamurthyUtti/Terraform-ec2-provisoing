@@ -10,6 +10,6 @@ resource "aws_instance" "demo" {
   key_name = var.key_pair
   vpc_security_group_ids = [aws_security_group.web_sg.id]
   tags = {
-    Name = "TerraformDemo"
+    Name = "Terraform-EC2"
   }
 }

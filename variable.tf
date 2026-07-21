@@ -1,7 +1,7 @@
 variable "instance_type" {
   description = "Type of instance to be created"
   type        = string
-  default     = "t3.micro"
+  default     = "t3.small"
 }
 
 variable "ami_id" {
