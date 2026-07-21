@@ -10,3 +10,7 @@ output "private_ip" {
     description = "The private IP of the instance"
   value = aws_instance.demo.private_ip
 }
+output "vpc_id"{
+  description = "The ID of the VPC"
+  value = aws_security_group.web_sg.vpc_id
+}
