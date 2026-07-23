@@ -14,7 +14,7 @@ resource "aws_instance" "demo" {
   }
 }
 resource "aws_s3_bucket" "my_bucket" {
-    bucket = "terraform-remote-bucket"
+    bucket = "terraform-demo-remote-backend-bucket"
     tags = {
         Name = "remote-state-bucket"
     }
