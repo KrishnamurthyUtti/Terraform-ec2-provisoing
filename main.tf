@@ -13,3 +13,6 @@ resource "aws_instance" "demo" {
     Name = "Terraform-EC2"
   }
 }
+resource "aws_s3_bucket" "my_bucket" {
+    bucket = "Terraform-EC2-Bucket"
+  }
